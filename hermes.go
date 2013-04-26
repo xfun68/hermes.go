@@ -61,7 +61,7 @@ silent() {
 }
 
 _hermes_cd() {
-  cd $* &>/dev/null
+  cd $*
 }
 
 hermes_home() {
